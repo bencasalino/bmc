@@ -1,0 +1,56 @@
+
+html {
+  background: url("back.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+margin-top: 140px;
+font-family: 'Roboto', sans-serif;
+}
+
+img {
+height: 100px;
+width: 100px;
+}
+
+.footer {
+background: red;
+border-width: 0px;
+
+}
+
+
+
+.navbar {
+background: black;
+border: 0px;
+height: 40px;
+@import font-family: 'Abel', sans-serif;
+}
+
+.one {
+  margin-top: 35%;
+padding-top: 10px;
+background: white;
+color:black;
+height: 250px;
+position: fixed;
+bottom: 0;
+width: 100%;
+/*opacity: .8;*/
+}
+
+
+.footer {
+}
+
+
+.footer > p{
+  font-size: 10px;
+  color: gray;
+
+}

@@ -1,3 +1,4 @@
+/* HTML AND BACKGROUND .................. */
 
 html {
   background: url("back.jpg") no-repeat center center fixed;
@@ -6,51 +7,38 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-
-h1 {
-margin-top: 140px;
-font-family: 'Roboto', sans-serif;
-}
-
-img {
-height: 100px;
-width: 100px;
-}
-
-.footer {
-background: red;
-border-width: 0px;
-
-}
-
-
+/* nav bar  .................. */
 
 .navbar {
 background: black;
+color:white;
 border: 0px;
 height: 40px;
 @import font-family: 'Abel', sans-serif;
 }
 
-.one {
-  margin-top: 35%;
-padding-top: 10px;
-background: white;
-color:black;
-height: 250px;
-position: fixed;
-bottom: 0;
-width: 100%;
-/*opacity: .8;*/
+
+/* logo and social media  .................. */
+
+
+
+
+  /* footer four cats .................. */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 175px;
+  background: black;
+  text: white;
 }
 
 
-.footer {
+.footertext {
+  color: white;
 }
 
-
-.footer > p{
-  font-size: 10px;
-  color: gray;
+.footerfour {
 
 }

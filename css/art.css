@@ -1,8 +1,7 @@
 /* HTML AND BACKGROUND .................. */
 
 body {
-    /*margin-top: -800px;*/
-  background: url("8.jpg") no-repeat center center fixed;
+  background: url("tree.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

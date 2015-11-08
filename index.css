@@ -1,6 +1,6 @@
 /* HTML AND BACKGROUND .................. */
 
-html {
+body {
   background: url("back.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,6 +10,7 @@ html {
 /* nav bar  .................. */
 
 .navbar {
+  /*background: transparent;*/
 background: black;
 color:white;
 border: 0px;
@@ -20,7 +21,32 @@ height: 40px;
 
 /* logo and social media  .................. */
 
+.logo {
+  /*margin-top: 200px;*/
+  color:black;
+  font-size: 42px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  letter-spacing: 8px;
+  /*background: yellow;*/
+}
 
+.social-media {
+  /*margin-top: 200px;*/
+  color:black;
+  font-size: 22px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  padding-left: 200px;
+  padding-right: 200px;
+  /*background: yellow;*/
+}
+
+
+img {
+color:white;
+}
 
 
   /* footer four cats .................. */
@@ -41,4 +67,27 @@ height: 40px;
 
 .footerfour {
 
+}
+
+
+
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    text-decoration: none;
 }

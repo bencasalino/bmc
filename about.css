@@ -1,56 +1,103 @@
+/* HTML AND BACKGROUND .................. */
 
-html {
-  background: url("back.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body {
+  background: white;
+  color: black;
 }
-
-h1 {
-margin-top: 140px;
-font-family: 'Roboto', sans-serif;
-}
-
-img {
-height: 100px;
-width: 100px;
-}
-
-.footer {
-background: red;
-border-width: 0px;
-
-}
-
-
+/* nav bar  .................. */
 
 .navbar {
+  /*background: transparent;*/
 background: black;
+color:white;
 border: 0px;
 height: 40px;
 @import font-family: 'Abel', sans-serif;
 }
 
-.one {
-  margin-top: 35%;
-padding-top: 10px;
-background: white;
-color:black;
-height: 250px;
-position: fixed;
-bottom: 0;
-width: 100%;
-/*opacity: .8;*/
+.skills {
+padding-left: 10%;
+padding-right: 10%;
+font-size: 13px;
+letter-spacing: 3px;
+/*margin-left: 25px;
+margin-right: 25px;*/
+
+}
+.hometown {
+  /*margin-top: 200px;*/
+  color:black;
+  font-size: 22px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  padding-left: 200px;
+  padding-right: 200px;
+  /*background: yellow;*/
 }
 
 
-.footer {
+/* logo and social media  .................. */
+
+.me {
+  /*margin-top: 200px;*/
+  color:black;
+  font-size: 42px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  letter-spacing: 8px;
+  position: justify;
+  /*background: yellow;*/
 }
 
 
-.footer > p{
-  font-size: 10px;
-  color: gray;
 
+
+img {
+color:white;
+}
+
+.lead {
+font-size: 14px;
+ text-align: justify;
+}
+  /* footer four cats .................. */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 175px;
+  background: black;
+  text: white;
+  text-decoration: none;
+}
+
+
+.footertext {
+  color: white;
+}
+
+.footerfour {
+
+}
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    text-decoration: none;
 }

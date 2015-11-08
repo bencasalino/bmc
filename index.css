@@ -21,10 +21,19 @@ height: 40px;
 
 /* logo and social media  .................. */
 
+.lead {
+font-size: 14px;
+ /*text-align: justify;*/
+}
+
+strong {
+color: gray;
+}
 
 .logo {
   /*margin-top: 200px;*/
-  color:black;
+  color:white;
+  /*color:black;*/
   font-size: 42px;
   font-weight: lighter;
   font-family: sans-serif;
@@ -56,9 +65,17 @@ color:white;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 175px;
+  height: 135px;
   background: black;
   text: white;
+  /*background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(19,19,19,1) 71%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(71%,rgba(19,19,19,1)));
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(19,19,19,1) 71%);
+  background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(19,19,19,1) 71%);
+  background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(19,19,19,1) 71%);
+  background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(19,19,19,1) 71%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#131313',GradientType=0 );*/
+
 }
 
 
